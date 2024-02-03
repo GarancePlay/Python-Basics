@@ -23,7 +23,7 @@ class Animal:
 
 #Classe fille
 class Chat(Animal, Felin):
-    #Heritage multiple
+    #Heritage multiple possible
 
     def __init__(self, nom, race):
         Animal.__init__(self, nom)
